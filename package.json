@@ -1,0 +1,28 @@
+{
+  "name": "@jaydanurwin/expansion-panel",
+  "version": "1.0.1",
+  "main": "dist/expansion-panel.es.js",
+  "exports": {
+    ".": "./dist/expansion-panel.es.js"
+  },
+  "types": "types/expansion-panel.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.0.0"
+  },
+  "devDependencies": {
+    "vite": "^2.6.4",
+    "typescript": "^4.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
